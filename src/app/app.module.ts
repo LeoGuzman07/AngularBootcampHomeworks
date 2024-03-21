@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DirectivasdeatributoModule } from './directivasdeatributo/directivasdeatributo.module';
+import { DirectivasestructuralesModule } from './directivasestructurales/directivasestructurales.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DirectivasdeatributoModule,
+    DirectivasestructuralesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
