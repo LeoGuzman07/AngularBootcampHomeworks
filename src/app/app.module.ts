@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DirectivasdeatributoModule } from './directivasdeatributo/directivasdeatributo.module';
-import { DirectivasestructuralesModule } from './directivasestructurales/directivasestructurales.module';
+import { DirectivasDeAtributoModule } from './directivasdeatributo/directivas-de-atributo.module';
+import { DirectivasEstructuralesModule } from './directivasestructurales/directivas-estructurales.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { DirectivasestructuralesModule } from './directivasestructurales/directi
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DirectivasdeatributoModule,
-    DirectivasestructuralesModule
+    DirectivasDeAtributoModule,
+    DirectivasEstructuralesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
