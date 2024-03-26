@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './ng-style-comp.component.scss'
 })
 export class NgStyleCompComponent {
-  protected redStyleBool: boolean = false;
+  protected redStyleActive: boolean = false;
 
   protected buttonHandler(){
-    this.redStyleBool = !this.redStyleBool;
+    this.redStyleActive = !this.redStyleActive;
   }
 }
