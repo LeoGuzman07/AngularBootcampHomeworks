@@ -17,4 +17,4 @@ import { NgSwitchCompComponent } from './ng-switch-comp/ng-switch-comp.component
     CommonModule
   ]
 })
-export class DirectivasestructuralesModule { }
+export class DirectivasEstructuralesModule { }
