@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DirectivasDeAtributoModule } from './directivasdeatributo/directivas-de-atributo.module';
+import { DirectivasEstructuralesModule } from './directivasestructurales/directivas-estructurales.module';
+import { CapitalizeDirectiveDirective } from './directivas-custom/capitalize-directive.directive';
+import { DataBindingModule } from './data-binding/data-binding.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CapitalizeDirectiveDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DirectivasDeAtributoModule,
+    DirectivasEstructuralesModule,
+    DataBindingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
