@@ -15,4 +15,4 @@ import { NgStyleCompComponent } from './ng-style-comp/ng-style-comp.component';
     CommonModule,
   ]
 })
-export class DirectivasdeatributoModule { }
+export class DirectivasDeAtributoModule { }
