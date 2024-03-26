@@ -7,6 +7,7 @@ import { DirectivasDeAtributoModule } from './directivasdeatributo/directivas-de
 import { DirectivasEstructuralesModule } from './directivasestructurales/directivas-estructurales.module';
 import { CapitalizeDirectiveDirective } from './directivas-custom/capitalize-directive.directive';
 import { DataBindingModule } from './data-binding/data-binding.module';
+import { MyFirstModuleModule } from './modulos/my-first-module/my-first-module.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DataBindingModule } from './data-binding/data-binding.module';
     AppRoutingModule,
     DirectivasDeAtributoModule,
     DirectivasEstructuralesModule,
-    DataBindingModule
+    DataBindingModule,
+    MyFirstModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
