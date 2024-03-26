@@ -1,0 +1,9 @@
+<h1>Data Binding</h1>
+<h2>Javascript Alert</h2>
+<br>
+<button (click)="buttonHandler()">Alerta Javascript</button>
+
+<h1>Data Binding</h1>
+<h2>One/Two way data binding</h2>
+<input #inputRef type="text" value="{{bindingText}}" (input)="inputHandler(inputRef.value)"><br>
+<span>{{bindingText}}</span>
