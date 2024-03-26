@@ -9,6 +9,6 @@ export class NgClassCompComponent {
   protected redClassActive: boolean = false;
 
   protected buttonHandler(){
-    this.redClassActive = !this.redClassBool;
+    this.redClassActive = !this.redClassActive;
   }
 }
