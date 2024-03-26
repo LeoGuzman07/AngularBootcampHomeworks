@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './ng-class-comp.component.scss'
 })
 export class NgClassCompComponent {
-  protected redClassBool: boolean = false;
+  protected redClassActive: boolean = false;
 
   protected buttonHandler(){
-    this.redClassBool = !this.redClassBool;
+    this.redClassActive = !this.redClassBool;
   }
 }
