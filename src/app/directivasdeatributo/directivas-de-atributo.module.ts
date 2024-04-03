@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgClassCompComponent } from './ng-class-comp/ng-class-comp.component';
-import { NgStyleCompComponent } from './ng-style-comp/ng-style-comp.component';
+import { NgClassComponent } from './ng-class-comp/ng-class.component';
+import { NgStyleComponent } from './ng-style-comp/ng-style.component';
 
 
 
 @NgModule({
   declarations: [
-    NgClassCompComponent,
-    NgStyleCompComponent
+    NgClassComponent,
+    NgStyleComponent
   ],
-  exports: [NgClassCompComponent,NgStyleCompComponent],
+  exports: [NgClassComponent,NgStyleComponent],
   imports: [
     CommonModule,
   ]
