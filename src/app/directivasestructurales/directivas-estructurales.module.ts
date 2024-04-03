@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule, NgIf } from '@angular/common';
-import { NgForCompComponent } from './ng-for-comp/ng-for-comp.component';
-import { NgIfCompComponent } from './ng-if-comp/ng-if-comp.component';
-import { NgSwitchCompComponent } from './ng-switch-comp/ng-switch-comp.component';
+import { NgForComponent } from './ng-for-comp/ng-for.component';
+import { NgIfComponent } from './ng-if-comp/ng-if.component';
+import { NgSwitchComponent } from './ng-switch-comp/ng-switch.component';
 
 
 
 @NgModule({
   declarations: [
-    NgForCompComponent,
-    NgIfCompComponent,
-    NgSwitchCompComponent
+    NgForComponent,
+    NgIfComponent,
+    NgSwitchComponent
   ],
-  exports : [NgForCompComponent,NgIfCompComponent,NgSwitchCompComponent],
+  exports : [NgForComponent,NgIfComponent,NgSwitchComponent],
   imports: [
     CommonModule
   ]
