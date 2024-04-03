@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ng-class-comp',
-  templateUrl: './ng-class-comp.component.html',
-  styleUrl: './ng-class-comp.component.scss'
+  selector: 'app-ng-class',
+  templateUrl: './ng-class.component.html',
+  styleUrl: './ng-class.component.scss'
 })
-export class NgClassCompComponent {
+export class NgClassComponent {
   protected redClassActive: boolean = false;
 
   protected buttonHandler(){
