@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ng-style-comp',
-  templateUrl: './ng-style-comp.component.html',
-  styleUrl: './ng-style-comp.component.scss'
+  selector: 'app-ng-style',
+  templateUrl: './ng-style.component.html',
+  styleUrl: './ng-style.component.scss'
 })
-export class NgStyleCompComponent {
+export class NgStyleComponent {
   protected redStyleActive: boolean = false;
 
   protected buttonHandler(){
