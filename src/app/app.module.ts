@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DirectivasDeAtributoModule } from './directivasdeatributo/directivas-de-atributo.module';
 import { DirectivasEstructuralesModule } from './directivasestructurales/directivas-estructurales.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
