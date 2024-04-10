@@ -9,6 +9,8 @@ import { InjectableModule } from './injectable/injectable.module';
 import { RootOneModule } from './injectable/root-one/root-one.module';
 import { RootTwoModule } from './injectable/root-two/root-two.module';
 import { PipeModule } from './pipes/pipe.module';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { AngularMaterialModule } from './material/angular-material.module';
 
 
 @NgModule({
@@ -23,9 +25,12 @@ import { PipeModule } from './pipes/pipe.module';
     InjectableModule,
     RootOneModule,
     RootTwoModule,
-    PipeModule
+    PipeModule,
+    AngularMaterialModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
