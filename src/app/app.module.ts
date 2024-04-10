@@ -8,6 +8,7 @@ import { DirectivasEstructuralesModule } from './directivasestructurales/directi
 import { InjectableModule } from './injectable/injectable.module';
 import { RootOneModule } from './injectable/root-one/root-one.module';
 import { RootTwoModule } from './injectable/root-two/root-two.module';
+import { PipeModule } from './pipes/pipe.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RootTwoModule } from './injectable/root-two/root-two.module';
     DirectivasEstructuralesModule,
     InjectableModule,
     RootOneModule,
-    RootTwoModule
+    RootTwoModule,
+    PipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
