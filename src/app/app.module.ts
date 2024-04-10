@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DirectivasDeAtributoModule } from './directivasdeatributo/directivas-de-atributo.module';
 import { DirectivasEstructuralesModule } from './directivasestructurales/directivas-estructurales.module';
+import { InjectableModule } from './injectable/injectable.module';
+import { RootOneModule } from './injectable/root-one/root-one.module';
+import { RootTwoModule } from './injectable/root-two/root-two.module';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { DirectivasEstructuralesModule } from './directivasestructurales/directi
     BrowserModule,
     AppRoutingModule,
     DirectivasDeAtributoModule,
-    DirectivasEstructuralesModule
+    DirectivasEstructuralesModule,
+    InjectableModule,
+    RootOneModule,
+    RootTwoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
